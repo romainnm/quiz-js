@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <main>
+      <div class="center-content">
+        <div class="question-container">
+        <form class="quiz-form-js">
+          <fieldset class="q1">
+            <h2>In 1768, Captain James Cook set out to explore which ocean?</h2>
+            <div>
+              <input
+                type="radio"
+                value="Pacific Ocean"
+                id="answer1"
+                name="q1"
+              /><label for="answer1">Pacific Ocean</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="Atlantic Ocean"
+                id="answer2"
+                name="q1"
+              /><label for="answer2">Atlantic Ocean</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="Indian Ocean"
+                id="answer3"
+                name="q1"
+              /><label for="answer3">Indian Ocean</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="Arctic Ocean"
+                id="answer4"
+                name="q1"
+              /><label for="answer4">Arctic Ocean</label>
+            </div>
+          </fieldset>
+          <fieldset class="q2">
+            <h2>What is actually electricity?</h2>
+            <div>
+              <input
+                type="radio"
+                value="A flow of water"
+                id="answer5"
+                name="q2"
+              /><label for="answer5">A flow of water</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="A flow of air"
+                id="answer6"
+                name="q2"
+              /><label for="answer6">A flow of air</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="A flow of electrons"
+                id="answer7"
+                name="q2"
+              /><label for="answer7">A flow of electrons</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="A flow of atoms"
+                id="answer8"
+                name="q2"
+              /><label for="answer8">A flow of atoms</label>
+            </div>
+  
+          </fieldset>
+          <fieldset class="q3">
+            <h2>
+              Which of the following is not an international organisation?
+            </h2>
+            <div>
+              <input type="radio" value="FIFA" id="answer9" name="q3" /><label
+                for="answer9"
+                />FIFA</label
+              >
+            </div>
+            <div>
+              <input type="radio" value="NATO" id="answer10" name="q3" /><label
+                for="answer10"
+                />NATO</label
+              >
+            </div>
+            <div>
+              <input type="radio" value="ASEAN" id="answer11" name="q3" /><label
+                for="answer11"
+                >ASEAN</label
+              >
+            </div>
+            <div>
+              <input type="radio" value="FBI" id="answer12" name="q3" /><label
+                for="answer12"
+                />FBI</label
+              >
+            </div>
+
+          </fieldset>
+          <fieldset class="q4">
+            <h2>
+              Which of the following disorders is the fear of being alone?
+            </h2>
+            <div>
+              <input
+                type="radio"
+                value="Agoraphobia"
+                id="answer13"
+                name="q4"
+              /><label for="answer13">Agoraphobia</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="Aerophobia"
+                id="answer14"
+                name="q4"
+              /><label for="answer14">Aerophobia</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="Acrophobia"
+                id="answer15"
+                name="q4"
+              /><label for="answer15">Acrophobia</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                value="Arachnophobia"
+                id="answer16"
+                name="q4"
+              /><label for="answer16">Arachnophobia</label>
+            </div>
+          </fieldset>
+          <div btn-container>
+              <button type="submit">Validate</button>
+          </div>
+        </form>
+        <div class="quiz-result-js">
+          <h2>Results</h2>
+          <p class="result-msg-js">You can do better!</p>
+          <p class="score-js"></p>
+        </div>
+      </div>
+      </div>
+      
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
